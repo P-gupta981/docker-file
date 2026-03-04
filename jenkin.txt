@@ -1,9 +1,0 @@
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-to install jenkins
-
-
-
-
-jenkin password -0ebc6d1d055b45b499301c92cff56acd
-  
-pat dockerfile token - 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

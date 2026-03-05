@@ -1,0 +1,15 @@
+# Base image
+FROM nginx:alpine
+
+# Remove defalut nginx files
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy our custom HTML page
+COPY index.html /usr/share/nginx/html/index.html
+
+# Expose container port
+EXPOSE 80
+
+# Start nginx in foreground
+CMD ["nginx", "-g", "daemon off;"]
+

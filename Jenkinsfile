@@ -10,7 +10,7 @@ pipeline {
         IMAGE_TAG      = "${BUILD_NUMBER}"
         
         // Deployment Target
-        APP_EC2_HOST   = "3.6.93.13" 
+        APP_EC2_HOST   = "65.2.175.65" 
         CONTAINER_NAME = "jenkins-repo"
         APP_PORT       = "80"
     }

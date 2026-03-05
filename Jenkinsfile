@@ -5,7 +5,7 @@ pipeline {
         // AWS and ECR Configurations
         AWS_REGION     = "ap-south-1"
         // Replace with your actual AWS Account ID from the image
-        ECR_REGISTRY   = "226608812300.dkr.ecr.ap-south-1.amazonaws.com/jenkins-repo" 
+        ECR_REGISTRY   = "226608812300.dkr.ecr.ap-south-1.amazonaws.com" 
         ECR_REPO       = "jenkins-repo"
         IMAGE_TAG      = "${BUILD_NUMBER}"
         

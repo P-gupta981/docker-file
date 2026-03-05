@@ -11,7 +11,7 @@ pipeline {
         
         // Deployment Target
         APP_EC2_HOST   = "13.233.196.148  " 
-        CONTAINER_NAME = "jenkins-repo"
+        CONTAINER_NAME = "my-container"
         APP_PORT       = "80"
     }
 

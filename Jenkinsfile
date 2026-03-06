@@ -10,7 +10,7 @@ pipeline {
         IMAGE_TAG      = "${BUILD_NUMBER}"
         
         // Deployment Target
-        APP_EC2_HOST   = "13.233.196.148  " 
+        APP_EC2_HOST   = "3.109.143.235" 
         CONTAINER_NAME = "my-container"
         APP_PORT       = "80"
     }

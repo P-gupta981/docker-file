@@ -6,11 +6,11 @@ pipeline {
         AWS_REGION     = "ap-south-1"
         // Replace with your actual AWS Account ID from the image
         ECR_REGISTRY   = "226608812300.dkr.ecr.ap-south-1.amazonaws.com" 
-        ECR_REPO       = "jenkins-repo"
+        ECR_REPO       = "ecr-repo1"
         IMAGE_TAG      = "${BUILD_NUMBER}"
         
         // Deployment Target
-        APP_EC2_HOST   = "3.109.143.235" 
+        APP_EC2_HOST   = "13.235.133.93   " 
         CONTAINER_NAME = "my-container"
         APP_PORT       = "80"
     }
